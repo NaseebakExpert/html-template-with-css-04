@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #E0D48A;
+}
+
+.container {
+    width: 70%;
+    margin: 5px auto;
+}
+
+.header {
+    background-image: url(laptopintable.jpg);
+    text-align: right;
+    padding: 40px;
+}
+
+div .heading-top {
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+.heading-top p {
+    margin-right: 97px;
+}
+
+.main-section {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: cornsilk;
+}
+
+.navbar {
+    background-color: #EAE6CB;
+    padding: 15px;
+    margin-bottom: 20px;   
+}
+
+.navbar ul>li {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar {
+    width: 25%;
+    margin-right: 20px;
+    float: left;
+}
+
+.menu>h3 {
+    margin-bottom: 10px;
+    background-color: #82af1e;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    margin-bottom: 5px;
+}
+
+.block>h3 {
+    margin: 20px 0;
+    background-color: #82af1e;
+    padding: 10px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content article {
+    margin-bottom: 20px;
+}
+
+.subscription, .other-services {
+    width: 35%;
+    display: inline-block;
+}
+
+.content h3 {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #a3cb38;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #577418;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a3cb38;
+}
